@@ -1,4 +1,4 @@
-# CCNA Lab
+# CCNA Labs
 Software Used: Cisco’s Packet Tracer
 
 Labs from: Jeremy's IT Lab
