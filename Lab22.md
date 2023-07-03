@@ -6,6 +6,7 @@ Introduction and identification of Rapids Spanning-Tree Protocol (RSTP). This al
 
 ## Thoughts: 
 We can see that SW1 is the root bridge, tied priorities goes to the lowest MAC address. 
+
 ![Lab22Step1 screenshot](/Lab22Step1.jpg)
 
 On the first step we need to identify what is different about this root bridge, my understanding is the fact that both F0/2 and F0/3 are designated ports. But one should be “blocking”, upon further investigation it is a PT error with the hub. One should be blocking, which would make this the answer because all ports should typically be designated not blocking.  
